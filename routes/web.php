@@ -16,10 +16,6 @@ use App\Http\Controllers\AboutusController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('admin/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -36,5 +32,5 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about-us',[AboutusController::class,'index']);
