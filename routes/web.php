@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutusController;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\LegaldocumnetController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 
@@ -34,5 +36,6 @@ require __DIR__ . '/auth.php';
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [AboutusController::class, 'index']);
-Route::get('/contact', [MessageController::class, 'index'])->name('contact');
+Route::get('/team',[TeamController::class,'index']);
+Route::get('/legal-documents',[LegaldocumnetController::class,'index']);Route::get('/contact', [MessageController::class, 'index'])->name('contact');
 Route::post('/message_submit', [MessageController::class, 'create'])->name('contactSubmit');

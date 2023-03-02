@@ -29,6 +29,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  {{-- <owl carousel min.js> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    {{-- owl carousel theme min.css --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
   <!-- =======================================================
   * Template Name: Medilab - v4.10.0
   * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
@@ -48,7 +55,7 @@
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/fishtailoverseas" target="blank" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
@@ -59,14 +66,18 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="{{route('home')}}">Fishtail Overseas</a></h1>
+      {{-- <h1 class="logo me-auto"><a href="{{route('home')}}">Fishtail Overseas</a></h1> --}}
       <!-- Uncomment below if you prefer to use an image logo -->
-      {{-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> --}}
+      <a href="{{route('home')}}" class="logo me-auto"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="{{route('home')}}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{{url('/about-us')}}">About</a></li>
+          <li class="dropdown"><a href="#"><span>About</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{{url('/about-us')}}">About us</a></li>
+              <li><a href="{{url('/legal-documents')}}">Legal Documents</a></li>
+            </ul>
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Overseas Recuritment</a></li>
@@ -81,8 +92,7 @@
             </ul>
           </li>
 
-          <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Teams</a></li>
+          <li><a class="nav-link scrollto" href="{{url('/team')}}">Teams</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
