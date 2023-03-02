@@ -73,37 +73,33 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="count-box">
-                            <i class="fas fa-user-md"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Doctors</p>
+                            <i class="fa fa-users"></i>
+                            <span>8000+</span>
+                            <p>Customer Served</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                         <div class="count-box">
-                            <i class="far fa-hospital"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Departments</p>
+                            <i class="fas fa-user-check"></i>
+                            <span>6000+</span>
+                            <p>Visa approved</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                         <div class="count-box">
-                            <i class="fas fa-flask"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Research Labs</p>
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>5000+</span>
+                            <p>Success Stories</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                         <div class="count-box">
-                            <i class="fas fa-award"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Awards</p>
+                            <i class="fa-solid fa-face-smile"></i>
+                            <span>6000+</span>
+                            <p>Happy Customer</p>
                         </div>
                     </div>
 
@@ -196,95 +192,7 @@
             </div>
         </section><!-- End Services Section -->
 
-        <!-- ======= Doctors Section ======= -->
-        <section id="doctors" class="doctors">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Team</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                        fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Medical Officer</span>
-                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4 mt-lg-0">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Anesthesiologist</span>
-                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>Cardiology</span>
-                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Neurosurgeon</span>
-                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Doctors Section -->
+       
 
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials">
@@ -388,9 +296,39 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section>
+        <!-- End Testimonials Section -->
+         <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-header">
+            <h2>gallery</h2>
+            <p>Check <span>Our Gallery</span></p>
+          </div>
+  
+          <div class="gallery-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+      </section><!-- End Gallery Section -->
+       
+  
+          
 
-        <!-- ======= Contact Section ======= -->
+
+        {{-- <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
 
@@ -462,7 +400,7 @@
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </section><!-- End Contact Section --> --}}
 
     </main><!-- End #main -->
 @endsection
