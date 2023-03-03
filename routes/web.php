@@ -7,6 +7,7 @@ use App\Http\Controllers\TeamController;
 use App\Http\Controllers\LegaldocumnetController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RecruitmentProcessController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,12 @@ Route::middleware('auth')->group(function () {
 require __DIR__ . '/auth.php';
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/about-us', [AboutusController::class, 'index']);
-Route::get('/team',[TeamController::class,'index']);
-Route::get('/legal-documents',[LegaldocumnetController::class,'index']);Route::get('/contact', [MessageController::class, 'index'])->name('contact');
+Route::get('/services', function(){
+    return view('frontend.services');
+})->name('services');
+Route::get('/recruitment_process', [RecruitmentProcessController::class, 'index'])->name('recruitmentProcess');
+Route::get('/about_us', [AboutusController::class, 'index'])->name('aboutUs');
+Route::get('/team',[TeamController::class,'index'])->name('team');
+Route::get('/legal_documents',[LegaldocumnetController::class,'index'])->name('legalDocuments');
+Route::get('/contact', [MessageController::class, 'index'])->name('contact');
 Route::post('/message_submit', [MessageController::class, 'create'])->name('contactSubmit');

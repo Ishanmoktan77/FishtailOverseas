@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 @section('main-container')
     <!-- ======= Contact Section ======= -->
-    <section class="contact" style="margin-top: 70px;">
+    <section class="contact" style="margin-top: 80px;">
         <div class="container">
             <div class="section-title">
                 <h2>Contact</h2>

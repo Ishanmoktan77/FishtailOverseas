@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 @section('main-container')
  <!-- ======= Gallery Section ======= -->
- <section id="gallery" class="gallery">
+ <section id="gallery" class="gallery" style="margin-top: 70px;">
 
     <div class="container" data-aos="fade-up">
       <div class="section-title">

@@ -5,7 +5,7 @@
          <div class="container">
              <div class="row">
 
-                 <div class="col-lg-3 col-md-6 footer-contact">
+                 <div class="col-lg-4 col-md-6 footer-contact">
                      <h3>Fishtail Overseas</h3>
                      <p>
                          Samakhusi-10<br>
@@ -16,28 +16,16 @@
                      </p>
                  </div>
 
-                 <div class="col-lg-2 col-md-6 footer-links">
+                 <div class="col-lg-4 col-md-6 footer-links">
                      <h4>Useful Links</h4>
                      <ul>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://my.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Malaysia</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://ae.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Abu Dhabi</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://qa.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Qatar</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://dofe.gov.np/" target="_blank">Department of Foreign Employement-DOFE </a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://nepalpassport.gov.np/" target="_blank">Department of Passports</a></li>
                      </ul>
                  </div>
-
-                 <div class="col-lg-3 col-md-6 footer-links">
-                     <h4>Our Services</h4>
-                     <ul>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                     </ul>
-                 </div>
-
                  <div class="col-lg-4 col-md-6 footer-newsletter" style="text-align: justify;">
                      <p>
                          We strive to provide exceptional service by supplying skilled, unskilled, professional, and
@@ -72,29 +60,33 @@
 
  {{-- Init Owl Carousel --}}
  <script>
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+     $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 10,
+         nav: true,
+         responsive: {
+             0: {
+                 items: 1
+             },
+             600: {
+                 items: 3
+             },
+             1000: {
+                 items: 5
+             }
+         }
+     })
  </script>
 
-{{-- jquery Cdn --}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ {{-- jquery Cdn --}}
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+     integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
  {{-- <owl carousel min.js> --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
  </body>
 
