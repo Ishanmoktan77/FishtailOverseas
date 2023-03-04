@@ -8,6 +8,7 @@ use App\Http\Controllers\LegaldocumnetController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RecruitmentProcessController;
+use App\Http\Controllers\CategoriesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,3 +46,4 @@ Route::get('/team',[TeamController::class,'index'])->name('team');
 Route::get('/legal_documents',[LegaldocumnetController::class,'index'])->name('legalDocuments');
 Route::get('/contact', [MessageController::class, 'index'])->name('contact');
 Route::post('/message_submit', [MessageController::class, 'create'])->name('contactSubmit');
+Route::get('/category', [CategoriesController::class, 'index'])->name('categories');

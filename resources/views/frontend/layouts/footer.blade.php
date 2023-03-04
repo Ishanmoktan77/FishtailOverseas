@@ -24,6 +24,7 @@
                          <li><i class="bx bx-chevron-right"></i> <a href="https://qa.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Qatar</a></li>
                          <li><i class="bx bx-chevron-right"></i> <a href="https://dofe.gov.np/" target="_blank">Department of Foreign Employement-DOFE </a></li>
                          <li><i class="bx bx-chevron-right"></i> <a href="https://nepalpassport.gov.np/" target="_blank">Department of Passports</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.ilo.org/global/lang--en/index.htm" target="_blank">ILO</a></li>
                      </ul>
                  </div>
                  <div class="col-lg-4 col-md-6 footer-newsletter" style="text-align: justify;">

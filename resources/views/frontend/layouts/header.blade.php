@@ -86,13 +86,14 @@
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('aboutUs') }}">About Us</a></li>
-                            <li><a href="{{ route('recruitmentProcess') }}">Recruitment Process</a></li>
+                            <li><a href="{{ route('legalDocuments') }}">Legal Documents</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Documents</span><i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Recuritment</span><i class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ route('recruitmentProcess') }}">Recruitment Process</a></li>
                             <li><a href="#">Sample Documents</a></li>
-                            <li><a href="{{ route('legalDocuments') }}">Legal Documents</a></li>
+                            <li><a href="{{route('categories')}}">Categories we provide</a></li>
                         </ul>
                     <li><a class="nav-link scrollto" href="{{ route('services') }}">Services</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/team') }}">Our Team</a></li>
