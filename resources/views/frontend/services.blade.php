@@ -46,7 +46,7 @@
                                         individuals achieve their goals through our recruitment services.</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('assets/img/services/overseas_recruitment.jpg')}}" alt="" class="img-fluid" style="height: 200px;">
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                                         for you.</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('assets/img/services/training.jpg')}}" alt="" class="img-fluid" style="height: 250px;">
                                 </div>
                             </div>
                         </div>

@@ -951,7 +951,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #d5e1ed;
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -1499,7 +1499,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #d6e9fa;
+  background: #d6faea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1519,7 +1519,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #4b7dab;
+  color: #1ca71c;
 }
 
 .contact .info .email,

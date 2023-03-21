@@ -70,7 +70,7 @@ class RecruitmentProcessController extends Controller
             ],
             [
                 'id' => 11,
-                'title' => 'Deployment & PDO by AMC',
+                'title' => 'Deployment & PDO by Fishtail Overseas',
                 'description' =>
                 "The company deploys the selected candidates to their respective job locations, and post-deployment orientation (PDO) is conducted by the company's authorized medical center (AMC).",
             ],

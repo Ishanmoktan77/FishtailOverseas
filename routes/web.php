@@ -25,8 +25,12 @@ Route::get('admin', function () {
     return view('adminPanel.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('admin/messages',[MessageController::class, 'indexAdminPanel'])->middleware(['auth', 'verified'])->name('messages');
-Route::get('admin/messages/delete/{id}', [MessageController::class, 'delete'])->middleware(['auth', 'verified'])->name('messageDelete');
+Route::middleware('auth')->group(function() {
+    Route::get('admin/messages',[MessageController::class, 'indexAdminPanel'])->name('messages');
+    Route::get('admin/team', [TeamController::class, 'indexAdminPanel'])->name('admin.team');
+    Route::get('admin/messages/delete/{id}', [MessageController::class, 'delete'])->name('messageDelete');
+});
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

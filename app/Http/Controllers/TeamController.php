@@ -10,4 +10,8 @@ class TeamController extends Controller
     {
         return view('frontend.team');
     }
+
+    public function indexAdminPanel() {
+        return view('adminPanel.team');
+    }
 }

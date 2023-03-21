@@ -32,15 +32,10 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     {{-- <owl carousel min.js> --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     {{-- owl carousel theme min.css --}}
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
 
 
     <!-- =======================================================
@@ -89,11 +84,12 @@
                             <li><a href="{{ route('legalDocuments') }}">Legal Documents</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Recuritment</span><i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Recuritment</span><i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('recruitmentProcess') }}">Recruitment Process</a></li>
                             <li><a href="#">Sample Documents</a></li>
-                            <li><a href="{{route('categories')}}">Categories we provide</a></li>
+                            <li><a href="{{ route('categories') }}">Categories we provide</a></li>
                         </ul>
                     <li><a class="nav-link scrollto" href="{{ route('services') }}">Services</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/team') }}">Our Team</a></li>

@@ -19,12 +19,18 @@
                  <div class="col-lg-4 col-md-6 footer-links">
                      <h4>Useful Links</h4>
                      <ul>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://my.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Malaysia</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://ae.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Abu Dhabi</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://qa.nepalembassy.gov.np/" target="_blank">Embassy of Nepal, Qatar</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://dofe.gov.np/" target="_blank">Department of Foreign Employement-DOFE </a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://nepalpassport.gov.np/" target="_blank">Department of Passports</a></li>
-                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.ilo.org/global/lang--en/index.htm" target="_blank">ILO</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://my.nepalembassy.gov.np/"
+                                 target="_blank">Embassy of Nepal, Malaysia</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://ae.nepalembassy.gov.np/"
+                                 target="_blank">Embassy of Nepal, Abu Dhabi</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://qa.nepalembassy.gov.np/"
+                                 target="_blank">Embassy of Nepal, Qatar</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://dofe.gov.np/"
+                                 target="_blank">Department of Foreign Employement-DOFE </a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://nepalpassport.gov.np/"
+                                 target="_blank">Department of Passports</a></li>
+                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.ilo.org/global/lang--en/index.htm"
+                                 target="_blank">ILO</a></li>
                      </ul>
                  </div>
                  <div class="col-lg-4 col-md-6 footer-newsletter" style="text-align: justify;">
@@ -47,6 +53,10 @@
  <div id="preloader"></div>
  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
          class="bi bi-arrow-up-short"></i></a>
+ {{-- jquery Cdn --}}
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+     integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
  <!-- Vendor JS Files -->
  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -62,32 +72,33 @@
  {{-- Init Owl Carousel --}}
  <script>
      $('.owl-carousel').owlCarousel({
-         loop: true,
          margin: 10,
-         nav: true,
+         loop: true,
+         autoplay: true,
+         autoplayTimeout: 2000,
+         autoplayHoverPause: true,
+         dots: false,
+         //  nav: true,
+         //  navText: ["<div class='owl-prev'><i class='bx bx-chevron-left'></i></div>", "<div class='owl-next'><i class='bx bx-chevron-right'></i></div>"],
          responsive: {
              0: {
                  items: 1
              },
              600: {
-                 items: 3
+                 items: 2
              },
              1000: {
-                 items: 5
+                 items: 3
              }
          }
-     })
+     });
  </script>
-
- {{-- jquery Cdn --}}
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-     integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
- {{-- <owl carousel min.js> --}}
- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+     function showModal() {
+         document.getElementById('addTeamMemberModal').classList.remove('hidden');
+         document.getElementsByTagName('html')[0].classList.add('overflow-y-hidden');
+     }
+ </script>
 
  </body>
 
