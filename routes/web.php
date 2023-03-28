@@ -27,8 +27,11 @@ Route::get('admin', function () {
 
 Route::middleware('auth')->group(function() {
     Route::get('admin/messages',[MessageController::class, 'indexAdminPanel'])->name('messages');
-    Route::get('admin/team', [TeamController::class, 'indexAdminPanel'])->name('admin.team');
     Route::get('admin/messages/delete/{id}', [MessageController::class, 'delete'])->name('messageDelete');
+    Route::get('admin/team', [TeamController::class, 'indexAdminPanel'])->name('admin.team');
+    Route::get('admin/team/delete/{id}', [TeamController::class, 'destroy'])->name('admin.team.delete');
+    Route::get('admin/team/add', [TeamController::class, 'create'])->name('admin.team.add');
+    Route::post('admin/team/add', [TeamController::class, 'store'])->name('admin.team.store');
 });
 
 
