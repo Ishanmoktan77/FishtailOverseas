@@ -16,16 +16,16 @@
 
         <div class="col-lg-3 col-md-4">
           <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+            <a href="assets/img/legaldocuments/doc1.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="assets/img/legaldocuments/doc1.jpeg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4">
           <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+            <a href="assets/img/legaldocuments/doc2.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="assets/img/legaldocuments/doc2.jpeg" alt="" class="img-fluid">
             </a>
           </div>
         </div>
