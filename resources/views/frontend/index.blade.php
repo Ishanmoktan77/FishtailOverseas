@@ -221,37 +221,37 @@
                 <div class="section-title">
                 <h2>Our Clients</h2>
             </div>
-                <div class="carousel-wrapper">
+                <div class="carousel-wrapper ">
                     <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="assets/img/clients/al_royal.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/go.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/all_time.webp" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/plaza.jpg"  alt=""  style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/astrea_group.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/zia.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/emarat_tech.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/jp1.jpg"   alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/go_gorgeous.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/at.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/joint_power.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/queens.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/master_vr.jpeg" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/master.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/plaza_international.png" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/as.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/queens.png" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/emrat.jpg"  alt="" style="width:100%;height:100%">
                         </div>
-                        <div class="item">
-                            <img src="assets/img/clients/zia_group.png" class="img-fluid" alt="">
+                        <div class="item" style="width:100%;height:200px">
+                            <img src="assets/img/clients/hawak.jpg" alt="" style="width:100%;height:100%">
                         </div>
                     </div>
                 </div>
