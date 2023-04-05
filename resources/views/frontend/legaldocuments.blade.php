@@ -1,85 +1,55 @@
 @extends('frontend.layouts.main')
 @section('main-container')
- <!-- ======= Gallery Section ======= -->
- <section id="gallery" class="gallery" style="margin-top: 70px;">
-
-    <div class="container" data-aos="fade-up">
-      <div class="section-title">
-
-        <h2>Legal Documents</h2>
-      </div>
-    </div>
-
-    <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row g-0">
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery" style="margin-top: 80px;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Legal Documents</h2>
+            </div>
         </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <a href="assets/img/legal_docs/0001.jpg" target="_blank">
+                            <img src="assets/img/legal_docs/0001.jpg" class="card-img-top" alt="Document 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">PAN Registration Certificate</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <a href="assets/img/legal_docs/0002.jpg" target="_blank">
+                            <img src="assets/img/legal_docs/0002.jpg" class="card-img-top" alt="Document 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Certificate of Incorporation of Company</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <a href="assets/img/legal_docs/0003.jpg" target="_blank">
+                            <img src="assets/img/legal_docs/0003.jpg" class="card-img-top" alt="Document 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">License Certificate</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <a href="assets/img/legal_docs/0004.jpg" target="_blank">
+                            <img src="assets/img/legal_docs/0004.jpg" class="card-img-top" alt="Document 4">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">License Certificate Receipt</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4">
-          <div class="gallery-item">
-            <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
-              <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Gallery Section -->
-  @endsection
+    </section><!-- End Gallery Section -->
+@endsection

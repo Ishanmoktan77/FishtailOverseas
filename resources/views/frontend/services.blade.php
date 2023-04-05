@@ -86,7 +86,7 @@
                                         you to focus on making the most of your overseas experience.</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('assets/img/services/orientation_services.png')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                         expectations.</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                                    <img src="{{asset('assets/img/services/consulting.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>

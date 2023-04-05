@@ -3,9 +3,9 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
-            <h1>Fishtail Overseas</h1>
+            {{-- <h1>Fishtail Overseas</h1>
             <h2>Connecting global talent, empowering businesses.</h2>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
         </div>
     </section><!-- End Hero -->
 

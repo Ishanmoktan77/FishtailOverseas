@@ -51,6 +51,9 @@ Route::get('/recruitment_process', [RecruitmentProcessController::class, 'index'
 Route::get('/about_us', [AboutusController::class, 'index'])->name('aboutUs');
 Route::get('/team',[TeamController::class,'index'])->name('team');
 Route::get('/legal_documents',[LegaldocumnetController::class,'index'])->name('legalDocuments');
+Route::get('/sample_documents', function() {
+    return view('frontend.sample-documents');
+})->name('sampleDocuments');
 Route::get('/contact', [MessageController::class, 'index'])->name('contact');
 Route::post('/message_submit', [MessageController::class, 'create'])->name('contactSubmit');
 Route::get('/category', [CategoriesController::class, 'index'])->name('categories');

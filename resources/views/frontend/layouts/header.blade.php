@@ -77,8 +77,11 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="{{ route('home') }}">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link  {{ request()->routeIs('home') ? 'active' : '' }}"
+                            href="{{ route('home') }}">Home</a></li>
+                    <li
+                        class="dropdown {{ request()->routeIs('aboutUs') || request()->routeIs('legalDocuments') ? 'active' : '' }}">
+                        <a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('aboutUs') }}">About Us</a></li>
                             <li><a href="{{ route('legalDocuments') }}">Legal Documents</a></li>
@@ -88,14 +91,14 @@
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ route('recruitmentProcess') }}">Recruitment Process</a></li>
-                            <li><a href="#">Sample Documents</a></li>
+                            <li><a href="{{ route('sampleDocuments') }}">Sample Documents</a></li>
                             <li><a href="{{ route('categories') }}">Categories we provide</a></li>
                         </ul>
-                    <li><a class="nav-link scrollto" href="{{ route('services') }}">Services</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('/team') }}">Our Team</a></li>
+                    <li><a class="nav-link" href="{{ route('services') }}">Services</a></li>
+                    <li><a class="nav-link" href="{{ url('/team') }}">Our Team</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
-            <a href="{{ route('contact') }}" class="appointment-btn scrollto">Contact Us</a>
+            <a href="{{ route('contact') }}" class="appointment-btn">Contact Us</a>
         </div>
     </header><!-- End Header -->
