@@ -79,23 +79,43 @@
                 <ul>
                     <li><a class="nav-link  {{ request()->routeIs('home') ? 'active' : '' }}"
                             href="{{ route('home') }}">Home</a></li>
-                    <li
-                        class="dropdown {{ request()->routeIs('aboutUs') || request()->routeIs('legalDocuments') ? 'active' : '' }}">
-                        <a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown">
+                        <a href="#"
+                            style="{{ request()->routeIs('aboutUs') || request()->routeIs('legalDocuments')
+                                ? 'color:#1ca71c;border-color:#1ca71c;'
+                                : '' }}"><span>About</span>
+                            <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ route('aboutUs') }}">About Us</a></li>
-                            <li><a href="{{ route('legalDocuments') }}">Legal Documents</a></li>
+                            <li><a href="{{ route('aboutUs') }}"
+                                    style="{{ request()->routeIs('aboutUs') ? 'color:#1ca71c;' : '' }}">About
+                                    Us</a></li>
+                            <li><a href="{{ route('legalDocuments') }}"
+                                    style="{{ request()->routeIs('legalDocuments') ? 'color:#1ca71c;' : '' }}">Legal
+                                    Documents</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Recuritment</span><i
+                    <li class="dropdown"><a href="#"
+                            style="{{ request()->routeIs('recruitmentProcess') ||
+                            request()->routeIs('sampleDocuments') ||
+                            request()->routeIs('categories')
+                                ? 'color:#1ca71c;border-color:#1ca71c;'
+                                : '' }}"><span>Recuritment</span><i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ route('recruitmentProcess') }}">Recruitment Process</a></li>
-                            <li><a href="{{ route('sampleDocuments') }}">Sample Documents</a></li>
-                            <li><a href="{{ route('categories') }}">Categories we provide</a></li>
+                            <li><a href="{{ route('recruitmentProcess') }}"
+                                    style="{{ request()->routeIs('recruitmentProcess') ? 'color:#1ca71c;' : '' }}">Recruitment
+                                    Process</a></li>
+                            <li><a href="{{ route('sampleDocuments') }}"
+                                    style="{{ request()->routeIs('sampleDocuments') ? 'color:#1ca71c;' : '' }}">Sample
+                                    Documents</a></li>
+                            <li><a href="{{ route('categories') }}"
+                                    style="{{ request()->routeIs('categories') ? 'color:#1ca71c;' : '' }}">Categories
+                                    we provide</a></li>
                         </ul>
-                    <li><a class="nav-link" href="{{ route('services') }}">Services</a></li>
-                    <li><a class="nav-link" href="{{ url('/team') }}">Our Team</a></li>
+                    <li><a class="nav-link {{ request()->routeIs('services') ? 'active' : '' }}"
+                            href="{{ route('services') }}">Services</a></li>
+                    <li><a class="nav-link {{ request()->routeIs('team') ? 'active' : '' }}"
+                            href="{{ url('/team') }}">Our Team</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

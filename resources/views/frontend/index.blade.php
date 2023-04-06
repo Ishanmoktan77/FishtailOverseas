@@ -121,15 +121,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
-                                        alt="">
-                                    <h3>Saul Goodman</h3>
-                                    <h4>Ceo &amp; Founder</h4>
+                                    {{-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
+                                        alt=""> --}}
+                                    <h3>Ahmed Ali</h3>
+                                    <h4>HR Manager</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                        rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                        risus at semper.
+                                        We have been working with Fishtail Overseas Pvt. Ltd. for the past few years and they have always provided us with high-quality workers from Nepal. Their team is efficient, professional and always ready to assist us with any queries we have. We highly recommend their services.
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -139,15 +137,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
-                                        alt="">
-                                    <h3>Sara Wilsson</h3>
-                                    <h4>Designer</h4>
+                                    {{-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
+                                        alt=""> --}}
+                                    <h3>Fatima Al-Sabah</h3>
+                                    <h4>HR Director</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                        cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                        legam anim culpa.
+                                       Fishtail Overseas Pvt. Ltd. has been our trusted partner for the past 2 years. They have a great selection of skilled and experienced workers from Nepal, which has helped us in improving our operations. Their staff is very cooperative and always ensure that our recruitment needs are met in a timely manner.
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -157,15 +153,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
-                                        alt="">
-                                    <h3>Jena Karlis</h3>
-                                    <h4>Store Owner</h4>
+                                    {{-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
+                                        alt=""> --}}
+                                    <h3>Omar Al-Habib</h3>
+                                    <h4>HR Manager</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                        minim.
+                                        We have been associated with Fishtail Overseas Pvt. Ltd. for over a decade now and have always received excellent service from their team. They have been providing us with hardworking and dedicated workers from Nepal, who have contributed significantly to the growth of our company. We appreciate their efforts and look forward to continuing our partnership with them.
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -175,15 +169,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
-                                        alt="">
-                                    <h3>Matt Brandon</h3>
-                                    <h4>Freelancer</h4>
+                                    {{-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
+                                        alt=""> --}}
+                                    <h3>Ali Al-Sadiq</h3>
+                                    <h4>HR Manager</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                        dolore labore illum veniam.
+                                        Fishtail Overseas Pvt. Ltd. has been instrumental in providing us with a reliable and skilled workforce from Nepal. Their team is very professional, responsive and has always gone above and beyond to meet our recruitment needs. We are happy to recommend their services to any company looking for top-quality workers.
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -193,15 +185,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
-                                        alt="">
-                                    <h3>John Larson</h3>
-                                    <h4>Entrepreneur</h4>
+                                    {{-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
+                                        alt=""> --}}
+                                    <h3>Lim Wei-Jie</h3>
+                                    <h4>HR Manager</h4>
                                     <p>
                                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                        veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                        culpa fore nisi cillum quid.
+                                        We have been working with Fishtail Overseas Pvt. Ltd. for the past couple of years and are very satisfied with their services. They have provided us with competent and skilled workers from Nepal, who have helped us in improving our operations. We appreciate their professionalism, expertise and look forward to a long-term association with them.
                                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                 </div>
