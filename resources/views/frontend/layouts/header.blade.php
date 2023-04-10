@@ -72,7 +72,7 @@
 
             {{-- <h1 class="logo me-auto"><a href="{{route('home')}}">Fishtail Overseas</a></h1> --}}
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="{{ route('home') }}" class="me-auto"><img src="assets/img/logo.jpg" alt=""
+            <a href="{{ route('home') }}" class="me-auto"><img src="assets/img/logo.png" alt=""
                     class="img-fluid" height="60px" width="60px"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
